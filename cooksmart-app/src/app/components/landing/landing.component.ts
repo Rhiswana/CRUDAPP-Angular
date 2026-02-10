@@ -9,7 +9,7 @@ import { Router,RouterModule } from '@angular/router';
   styleUrls: ['./landing.component.css']
 })
 export class LandingComponent {
-  // Navigation methods
+ 
   goToLogin(): void {
     console.log('Navigate to login');
     
