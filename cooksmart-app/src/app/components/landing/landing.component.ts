@@ -9,11 +9,14 @@ import { Router,RouterModule } from '@angular/router';
   styleUrls: ['./landing.component.css']
 })
 export class LandingComponent {
+  constructor(private router: Router) {}
  
-  goToLogin(): void {
-    console.log('Navigate to login');
-    
+     goToLogin() {
+    this.router.navigate(['/login']);
   }
+
+    
+  
 
   goToSignup(): void {
     console.log('Navigate to signup');
